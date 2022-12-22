@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'IBM Plex Serif', serif;
+}
+@media print {
+  html,body {
+      display: none;
+  }
+}
+html {
+  user-select: none;
+}
+.space{
+  height: 230px;
+}
+/* section properties */
+#profile, #knowledge, #contact, #marksheets{
+  text-align: center;
+  margin:0;
+  padding:2% 5%;
+}
+.section-heading{
+  margin:80px 20px;
+  padding: 0.9375rem;
+  width: auto;
+  color: #EAEAEA;
+  background-color:rgba(2, 3, 3, 0.26);
+  border-radius: 4px;
+  box-shadow: 0 3px 6px  rgb(8, 116, 124);
+  text-align: center;
+}
+
+/* effects */
+.effect{
+  transition: all .2s ease-in-out;
+}
+.effect:hover{
+  transform: scale(1.1);
+}
+.text{
+  color: #EAEAEA;
+  font-family:'IBM Plex Serif-light-300';
+}
+  
+/* profile section */
+h2,h6{
+  color: #EAEAEA;
+  font-family:'IBM Plex Serif-light-300';
+  text-align: center;
+}
+
+h1 {
+  color:  #FF2E63;
+  text-shadow: 1px 1px 2px#EAEAEA;
+  font-family:'IBM Plex Serif-bold-500';
+  
+}
+
+  #profile::before{
+  content: "";
+    background-image: url("https://wallpaperaccess.com/full/3167720.jpg"); 
+ 
+   background-size:cover; 
+  background-position: center;
+  background-repeat: repeat;
+  position:fixed;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  bottom: 0px; 
+  left: 0px; 
+  opacity: 1; 
+}  
+
+.profile-col{
+  text-align: center;
+  padding:30px 0;
+  
+}
+.profile-img{
+  height: 200px;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 100%;
+  padding:10px;
+  margin-bottom: 15px;
+}
+/* experience section */
+.company{
+  margin:0;
+}
+.year{
+  color: #EAEAEA;
+  font-family:'IBM Plex Serif-light-300';
+  display:inline-block;
+  padding:0;
+  font-size: 1.1rem;
+}
+/*Navbar section */
+.navigation-bar {
+  padding: 25px;
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color:rgba(2, 3, 3, 0.26);
+  border-radius: 4px;
+  box-shadow: 0 3px 6px  rgb(8, 116, 124);
+ 
+}
+
+.nav-text{
+  margin-left: 20px;
+  text-align: left;
+}
+.nav-text:hover{
+  color: rgb(8, 116, 124);
+  
+}
+.nav-body{
+  background-color: rgb(4, 45, 48);
+}
+/* contact section */
+.contact-col{
+  margin: 20px 0;
+}
+.contact-img{
+  padding: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
